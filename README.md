@@ -19,7 +19,7 @@ This repository provides a set of T-SQL scripts and stored procedures to collect
 
 ### 1. Deploy Objects
 
-Run the `azure-sql-permissions.sql` script in your target Azure SQL Database. It will:
+Run the `AzureSQLScriptPermisisons.sql` script in your target Azure SQL Database. It will:
 
 - Drop and recreate reporting/staging tables
 - Deploy stored procedures for collecting and querying permissions
