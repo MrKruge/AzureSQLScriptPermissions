@@ -38,9 +38,6 @@ To fetch permissions scripted within the last X days (e.g., last day):
 ```sql
 EXEC dbo.sp_DBA_Script_All_Permissions @returndays = -1; -- last 1 day
 ```
-```sql
-EXEC dbo.sp_DBA_Script_All_Permissions @returndays = -1; -- last 1 day
-```
 You can filter further by DB name (not needed in single DB):
 ```sql
 EXEC dbo.sp_DBA_Script_All_Permissions @returndays = -7, @Dbname = N'YOUR_DB_NAME';
